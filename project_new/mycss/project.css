@@ -1,0 +1,99 @@
+.container{
+	position: relative;
+	text-align:center;
+	color: black;
+	margin-top: 3px;
+}
+.nav-item{
+	font-size: 30px;
+	font-family:  monotype corsiva;
+	margin-right: 20px;
+
+}
+.col-sm-4{
+	padding: 0 0 0 0;
+}
+body{
+	background-image: url('../images/back2.jpg');
+}
+.row a{
+	text-decoration:none;
+}
+.navbar {
+ height: 120px;
+}
+.image{
+	
+	position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example{
+0%{ top: 0;left:0; }
+25%{ top:20px;left:0; }
+50%{ top:20px ;left:20px; }
+75%{ top:0px ;left:20px; }
+100%{ top: 0;left:0; }
+}
+.font-italic{
+	color: #f007ae;
+	font-size: 20px;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left:40%;
+	color:black;
+	font-size: 50px;
+	font-family: cursive;
+}
+
+.cent{
+
+position: relative;
+text-align: center;
+color: black;
+margin-top: 6px;
+font-family: cursive;
+font-weight: bold;
+}
+.imgs{
+border:4px solid #05585e;
+border-radius:8%;
+padding: 5px;
+margin:5px;
+}
+.card-body{
+	
+	border-radius:10px;
+}
+form{
+	background-color: #ccbb50;
+}
+
+.btn{
+	background-color: #778800;
+	color: white;
+	font-weight: bold;
+}
+.jumbotron{
+	display:flex;
+	justify-content:left;
+	font-style: italic;
+}
+}
+.img-thumbnail
+{
+width: 100%;
+height: 350px;
+}
+.avatar {
+  border: solid rgba(#fff, 0.3);
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+ 
+}
